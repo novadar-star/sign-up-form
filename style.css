@@ -48,5 +48,14 @@ h3{
 
 .outerform{
     display: flex;
+    border: 2px solid blue;
+}
+.first-container, .second-container{
+    flex:1;
+    border:2px solid yellow;
+}
+
+input, label{
+    display: block;
 }
 /*setting img in a div and resize it dynamically*/
