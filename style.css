@@ -9,6 +9,7 @@
 }
 body{
     overflow: hidden;
+    font-family: "Roboto", sans-serif;
     
 }
 .img {
@@ -57,5 +58,9 @@ h3{
 
 input, label{
     display: block;
+}
+
+label {
+    font-size: 13px;
 }
 /*setting img in a div and resize it dynamically*/
