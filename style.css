@@ -16,7 +16,8 @@ body{
    display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden;   
+    position: relative;
 }
 
 .img img {
@@ -98,8 +99,20 @@ h5{
 }
 mark.login{
     color: #19093a;
+    cursor: pointer;
     background:none;
 }
 /*setting img in a div and resize it dynamically*/
 
 /*add odin above the background img*/
+.odin-bg{
+    position: absolute;
+    background: grey;  
+    text-align: center; 
+    width: 100%;
+    height: 20%;
+}
+h1{
+    text-align: center;
+    margin:3rem;
+}
