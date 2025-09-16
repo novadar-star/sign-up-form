@@ -39,10 +39,17 @@ body{
 h3{
     color: black;
     margin:0 24px;
-    margin-bottom: 20px;
+    margin-bottom: 3rem;
 }
 .panel{
-    padding:6rem;
+    padding:2rem;
     background-color: antiquewhite;
 }
+.row{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border:2px solid yellow;
+}
+
 /*setting img in a div and resize it dynamically*/
