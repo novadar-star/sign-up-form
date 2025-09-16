@@ -15,16 +15,14 @@
 
         <div class="form">
         <form class="form-row">
-            <h3>This is not a real online service! You know you need something
-            like this in your life to help you realize your deepest dreams. Sign up
+            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up
             <i>now</i> to get started.
             <br>
             <br>
             You <i>know</i> you want to.
             </h3>
             <div class="panel">
-                <h3>Let's do this!</h3>
-
+            <h3>Let's do this!</h3>
                 <div class="first-container">
                     <div class="row first">
                         <label for="fname">FIRST NAME</label>
@@ -42,26 +40,28 @@
                         pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
                     </div>
                 </div>
+                
+                <div class="second-container">
+                    <div class="row second">
+                        <label for="lname">LAST NAME</label>
+                        <input required type="text" id="lname" minlength="1" maxlength="20">
+                    </div>
             
-           
-              <div class="row second">
-                <label for="lname">LAST NAME</label>
-                <input required type="text" id="lname" minlength="1" maxlength="20">
+                    <div class="row second">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="tel" id="phonenumber" min="10" required>
+                    </div>
+            
+                    <div class="row second">
+                        <label for="confirmpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmpassword"
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
+                    </div>
+                </div>
+
             </div>
-           
+
           
-            <div class="row second">
-                <label for="phonenumber">PHONE NUMBER</label>
-                <input type="tel" id="phonenumber" min="10" required>
-            </div>
-        
-
-                <div class="row second">
-                <label for="confirmpassword">CONFIRM PASSWORD</label>
-                <input type="password" id="confirmpassword"
-                 pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" required>
-
-            </div>
             </div>
           
         </form>
