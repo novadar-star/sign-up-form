@@ -30,7 +30,6 @@ body{
     flex:1;
     display: flex;
     flex-direction: row;
-    border:1px solid black;
     background-color:#417FA6;
     
 }
@@ -45,6 +44,7 @@ h3{
 h2{
    margin-bottom: 1.1rem;
 }
+
 .panel{
     margin: auto;
 
@@ -82,11 +82,20 @@ input {
 
 button {
     padding: 12px 32px;
-    margin: 2.4rem 1rem;
+    margin: 1.6rem 1.4rem;
     border-radius: 5px;
     background-color: #19093a;
     color: white;
     border: none;
     cursor: pointer;
 }
+h6{
+    margin-left: 1.5rem;
+}
+mark.login{
+    color: #19093a;
+    background:none;
+}
 /*setting img in a div and resize it dynamically*/
+
+/*add odin above the background img*/
