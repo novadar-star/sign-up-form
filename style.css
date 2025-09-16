@@ -10,7 +10,6 @@
 body{
     overflow: hidden;
     
-
 }
 .img {
    display: flex;
@@ -44,12 +43,10 @@ h3{
 .panel{
     padding:2rem;
     background-color: antiquewhite;
-}
-.row{
-    display: flex;
-    flex-direction: column;
-    flex:1;
-    border:2px solid yellow;
+   
 }
 
+.outerform{
+    display: flex;
+}
 /*setting img in a div and resize it dynamically*/
