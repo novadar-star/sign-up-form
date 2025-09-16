@@ -88,10 +88,13 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+        box-shadow: 2px 3px 3px #270f55;
+
+
 }
 h5{
     margin-left: 1.5rem;
-    font-weight: normal;
+    font-weight: normal ;
 }
 mark.login{
     color: #19093a;
