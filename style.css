@@ -32,6 +32,7 @@ body{
     flex-direction: row;
     border:1px solid black;
     background-color:#417FA6;
+    
 }
 .form-row{
     margin-top: 5rem;
@@ -48,7 +49,9 @@ h2{
     margin: auto;
 
     padding:1.8rem 1.2rem;
-    background-color: rgb(121, 179, 216);;
+    background-color: rgb(121, 179, 216);
+    box-shadow: 4px 10px 8px rgb(41, 70, 88);
+
 }
 .headline {
     text-align: left;
@@ -56,11 +59,9 @@ h2{
 }
 .outerform{
     display: flex;
-    border: 2px solid blue;
 }
 .first-container, .second-container{
     flex:1;
-    border:2px solid yellow;
 }
 
 input, label{
@@ -73,10 +74,19 @@ label {
 
 input {
     border-radius: 4px;
-    border:1px solid rgb(191, 188, 188);
-    padding:4px;
+    border:1px solid rgb(139, 136, 136);
+    padding:2px;
     width:60%;
     margin-bottom:0.5rem;
 }
 
+button {
+    padding: 12px 32px;
+    margin: 2.4rem 1rem;
+    border-radius: 5px;
+    background-color: #19093a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 /*setting img in a div and resize it dynamically*/
