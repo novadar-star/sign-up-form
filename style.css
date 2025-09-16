@@ -63,4 +63,9 @@ input, label{
 label {
     font-size: 13px;
 }
+
+input {
+    border-radius: 4px;
+    border:1px solid grey;
+}
 /*setting img in a div and resize it dynamically*/
