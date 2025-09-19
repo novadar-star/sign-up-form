@@ -93,6 +93,10 @@ button {
 
 
 }
+button:hover {
+  transform: scale(1.1) perspective(1px)
+
+}
 h5{
     margin-left: 1.5rem;
     font-weight: normal ;
@@ -102,17 +106,28 @@ mark.login{
     cursor: pointer;
     background:none;
 }
+.login:hover{
+    text-decoration: underline;
+}
 /*setting img in a div and resize it dynamically*/
 
 /*add odin above the background img*/
 .odin-bg{
     position: absolute;
-    background: grey;  
     text-align: center; 
+background-color: rgba(55, 53, 56, 0.27);
     width: 100%;
     height: 20%;
+}
+.logo img{
+    position: relative;
+    width: 10px;
+    height: 20px;
+    max-width: 10px;
+    max-height: 10px;
 }
 h1{
     text-align: center;
     margin:3rem;
+    color:whitesmoke;
 }
