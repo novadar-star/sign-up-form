@@ -27,6 +27,7 @@ body{
     width:35rem;
     height: auto;
 }
+
 .form {
     flex:1;
     display: flex;
@@ -113,15 +114,19 @@ mark.login{
 
 /*add odin above the background img*/
 .odin-bg{
+    display: flex;
     position: absolute;
     text-align: center; 
-background-color: rgba(55, 53, 56, 0.27);
-    width: 100%;
+    justify-content: center;
+    margin: 4% 0;
+    background-color: rgba(55, 53, 56, 0.27);
+    width: 35rem;
     height: 20%;
 }
 .logo img{
     position: relative;
-    width: 10px;
+    margin-top:100px;
+    width: 100px;
     height: 20px;
     max-width: 10px;
     max-height: 10px;
@@ -131,7 +136,10 @@ h1{
     margin:3rem;
     color:whitesmoke;
 }
-
+input[type="text"]:focus{
+    border:1px solid blue;
+    outline: none;
+}
 /* validation */
 
 input[type="email"]:invalid{
