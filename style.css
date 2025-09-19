@@ -131,3 +131,9 @@ h1{
     margin:3rem;
     color:whitesmoke;
 }
+
+/* validation */
+
+input[type="email"]:invalid{
+    border: 1px solid red;
+}
