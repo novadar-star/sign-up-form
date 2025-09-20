@@ -8,7 +8,7 @@
 
 }
 body{
-    overflow: hidden;
+   overflow: hidden;
     font-family: "Roboto", sans-serif;
     
 }
@@ -16,7 +16,6 @@ body{
    display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;   
     position: relative;
 }
 
@@ -32,7 +31,7 @@ body{
     flex:1;
     display: flex;
     flex-direction: row;
-    background-color:#417FA6;
+    background-color:#b1d7ee;
     
 }
 .form-row{
@@ -75,9 +74,9 @@ label {
 }
 
 input {
-    border-radius: 4px;
+    border-radius: 5px;
     border:1px solid rgb(139, 136, 136);
-    padding:2px;
+    padding:8px;
     width:60%;
     margin-bottom:0.5rem;
 }
@@ -86,11 +85,11 @@ button {
     padding: 12px 32px;
     margin: 1.6rem 1.4rem;
     border-radius: 5px;
-    background-color: #19093a;
+    background-color: #3c1b7c;
     color: white;
     border: none;
     cursor: pointer;
-    box-shadow: 2px 3px 3px #270f55;
+    box-shadow: 2px 3px 3px #1d0942;
 
 
 }
@@ -175,6 +174,10 @@ input[type="email"]:focus{
 }
 /* validation */    
 
-input[type="email"]:invalid{
+input[type="email"]:invalid, input[type="password"]:invalid{
     border: 1px solid red;
 }
+input[type="email"]:valid, input[type="password"]:valid{
+    border:1px solid green;
+}
+/*do password valdiation*/
