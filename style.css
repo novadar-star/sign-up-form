@@ -52,7 +52,7 @@ h2{
 
     padding:1.8rem 1.2rem;
     background-color: rgb(121, 179, 216);
-    box-shadow: 4px 10px 8px rgb(41, 70, 88);
+    box-shadow: 2px 8px 7px rgb(41, 70, 88);
 
 }
 .headline {
@@ -123,6 +123,10 @@ mark.login{
     width: 35rem;
     height: 20%;
 }
+.credits{
+    display: flex;
+    position: absolute;
+}
 .logo img{
     position: relative;
     margin-top:100px;
@@ -135,6 +139,9 @@ h1{
     text-align: center;
     margin:3rem;
     color:whitesmoke;
+}
+p{
+    margin-right: 90px;
 }
 input[type="text"]:focus, input[type="password"]:focus,
 input[type="email"]:focus{
