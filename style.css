@@ -67,10 +67,14 @@ h2{
 
 input, label{
     display: block;
+
 }
 
 label {
-    font-size: 13px;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2px;
+
 }
 
 input {
@@ -165,19 +169,19 @@ h1{
     color:whitesmoke;
 }
 
+/* validation */    
+
 input[type="text"]:focus, input[type="password"]:focus,
 input[type="email"]:focus{
     border:1px solid blue;
     outline: none;
-
     box-shadow: 2px 3px rgb(89, 146, 182);
 }
-/* validation */    
 
-input[type="email"]:invalid, input[type="password"]:invalid{
+input[type="email"]:invalid, input[type="text"]:invalid, input[type="password"]:invalid{
     border: 1px solid red;
 }
-input[type="email"]:valid, input[type="password"]:valid{
+input[type="email"]:valid,input[type="text"]:valid, input[type="password"]:valid{
     border:1px solid green;
 }
 /*do password valdiation*/
