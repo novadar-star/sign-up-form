@@ -148,16 +148,21 @@ span a:hover{
 
 }
 .logo img{
-    position: relative;
-    margin-top:100px;
-    width: 100px;
-    height: 20px;
-    max-width: 10px;
-    max-height: 10px;
+    position: absolute;
+    margin:10px;
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
 }
 h1{
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 600;
     text-align: center;
-    margin:3rem;
+    letter-spacing: 2px;
+
+    font-size: 4rem;
+    margin:1rem;
     color:whitesmoke;
 }
 
